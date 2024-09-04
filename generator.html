@@ -418,6 +418,16 @@
           </div>
           <div class="menu-section-content menu-hideable-area menu-setting">
             <span class="flex-spread-evenly flex-align-vertically menu-setting has-tool-tip">
+              <label for="palettes">Skin, Hair, and Eye Colors:</label>
+              <select name="palettes" id="palettes">
+                <option value="vanilla">Vanilla</option>
+                <option value="random">Random</option>
+              </select>
+              <span class="tool-tip">Vanilla will use the vanilla palettes. Random will randomly create new color palettes.</span>
+            </span>
+          </div>
+          <div class="menu-section-content menu-hideable-area menu-setting">
+            <span class="flex-spread-evenly flex-align-vertically menu-setting has-tool-tip">
               <label for="culture-per">Generate Culture per:</label>
               <select name="culture-per" id="culture-per">
                 <option value="empire" selected>Empire</option>
@@ -671,6 +681,14 @@
         </div>
         <div id="landing-release-notes">
           <div id="landing-release-notes-details">
+
+            <p class="text-intro">Alpha 0.19.0 Release</p>
+            <p class="main-landing-text">Ethnicities and Palettes</p>
+            <p class="main-landing-heading">Alpha 0.19.0 Release</p>
+            <p class="main-landing-text">
+              Feature: Reimplemented random skin, eye, and hair color generation, which was removed after Alpha 0.1, as an option under the culture tab. By default, vanilla ethnicities will be used unless you select random.<br>
+              Bug Fix: The random ethnicity option was not working due to some missing checks. This has been fixed.<br>
+            </p><br>
 
             <p class="text-intro">Alpha 0.18.1 Release</p>
             <p class="main-landing-text">Bug Fix: empires</p>
